@@ -35,13 +35,13 @@ void InputData()
 
 void BubbleSort()
 {
-    int pass = 1; //Langkah 1 cuy
+    int pass = 1; //Langkah 1 
     do
     {
     
-        for (int  j = 0; j <= n - 1 - pass; j++) //Langkah 2 cuy
+        for (int  j = 0; j <= n - 1 - pass; j++) //Langkah 2 
         {
-            if(arr[j] > arr[j + 1]) //Langkah 3 cuy
+            if(arr[j] > arr[j + 1]) //Langkah 3 
             {
                 int temp;
                 temp = arr[j];
@@ -52,7 +52,7 @@ void BubbleSort()
     
         pass = pass + 1;
         
-    } while (pass <= n - 1); //Langkah 6 cuy
+    } while (pass <= n - 1); //Langkah 6 
     
 }
 
